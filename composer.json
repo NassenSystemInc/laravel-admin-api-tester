@@ -16,6 +16,7 @@
 	],
 	"require" : {
 		"php" : ">=7.2.0",
+		"laravel/framework" : "~6.18",
 		"encore/laravel-admin" : "~1.7"
 	},
 	"autoload" : {
@@ -32,6 +33,5 @@
 				"Encore\\Admin\\ApiTester\\ApiTesterServiceProvider"
 			]
 		}
-	},
-	"minimum-stability" : "dev"
+	}
 }
